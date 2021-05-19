@@ -1,0 +1,88 @@
+{
+        "defaut": {
+                "general": {
+                        "nombre_petit_herbivore": 100,
+                        "nombre_grand_herbivore": 50,
+                        "nombre_petit_carnivore": 30,
+                        "nombre_grand_carnivore": 20
+                },
+                "carte": {
+                        "largeur_carte": 75,
+                        "hauteur_carte": 75
+                },
+                "petit_herbivore": {
+                        "delai_reproduction": 20.0,
+                        "age_reproduction": 30.0,
+                        "esperance_vie": 500.0,
+                        "perte_energie": 5.0
+                },
+                "grand_herbivore": {
+                        "delai_reproduction": 100.0,
+                        "age_reproduction": 200.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 0.5
+                },
+                "petit_carnivore": {
+                        "delai_reproduction": 100.0,
+                        "age_reproduction": 200.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 0.5
+                },
+                "grand_carnivore": {
+                        "delai_reproduction": 100.0,
+                        "age_reproduction": 200.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 0.5
+                },
+                "vegetation": {
+                        "quantite_max": 100.0,
+                        "croissance_min": 0.1,
+                        "croissance_max": 0.3,
+                        "croissance_fixe": 0.2,
+                        "type_croissance": "Al\u00e9atoire"
+                }
+        },
+        "exemple_rapport": {
+                "general": {
+                        "nombre_petit_herbivore": 300,
+                        "nombre_grand_herbivore": 50,
+                        "nombre_petit_carnivore": 50,
+                        "nombre_grand_carnivore": 30
+                },
+                "carte": {
+                        "largeur_carte": 75,
+                        "hauteur_carte": 75
+                },
+                "petit_herbivore": {
+                        "delai_reproduction": 15.0,
+                        "age_reproduction": 15.0,
+                        "esperance_vie": 200.0,
+                        "perte_energie": 10.0
+                },
+                "grand_herbivore": {
+                        "delai_reproduction": 100.0,
+                        "age_reproduction": 200.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 0.5
+                },
+                "petit_carnivore": {
+                        "delai_reproduction": 100.0,
+                        "age_reproduction": 200.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 0.5
+                },
+                "grand_carnivore": {
+                        "delai_reproduction": 55.0,
+                        "age_reproduction": 55.0,
+                        "esperance_vie": 1000.0,
+                        "perte_energie": 2.0
+                },
+                "vegetation": {
+                        "quantite_max": 100.0,
+                        "croissance_min": 0.1,
+                        "croissance_max": 1.0,
+                        "croissance_fixe": 1.0,
+                        "type_croissance": "Fixe"
+                }
+        }
+}
